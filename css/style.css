@@ -53,18 +53,19 @@ nav a {
     padding: 20px;
 }
 
-.main-game-article {
+.main-game {
     margin-top: 50px;
-    padding: 100px 100px;
+    padding: 10px 100px;
+    border-bottom: 5px solid black;
 }
 
 .main-article {
     display: flex;
-    border: 3px solid black;
 }
 
 .main-article img {
     width: 100%;
+    border: 5px solid black;
 }
 
 .main-article div {
@@ -85,13 +86,73 @@ nav a {
     color: red;
 }
 
-.left-column {
+.main-article .left-column {
     margin: 20px 20px;
 }
 
-.right-column {
+.main-article .right-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 20px;
+}
+
+.game-description{
+    padding: 50px 100px;
+}
+
+.game-description article{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.game-description div{
+    flex: 1;
+    
+}
+
+.game-description .left-column{
+    background-color: lightgray;
+    padding: 50px;
+    margin: 75px;
+}
+
+.game-description .right-column{
+    flex: 2;
+}
+
+.other-games{
+    padding-top: 50px;
+    background-color: red;
+    color: white;
+}
+
+.other-games h2{
+    text-align: center;
+}
+
+.container-games{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex: 1;
+    padding: 50px 300px;
+}
+
+.container-games article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+footer a{
+    color: white;
+    padding: 0px 50px;
 }
