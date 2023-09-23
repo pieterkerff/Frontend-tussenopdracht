@@ -97,62 +97,63 @@ nav a {
     margin: 20px;
 }
 
-.game-description{
+.game-description {
     padding: 50px 100px;
 }
 
-.game-description article{
+.game-description article {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
 }
-.game-description div{
+
+.game-description div {
     flex: 1;
-    
+
 }
 
-.game-description .left-column{
+.game-description .left-column {
     background-color: lightgray;
     padding: 50px;
     margin: 75px;
 }
 
-.game-description .right-column{
+.game-description .right-column {
     flex: 2;
 }
 
-.other-games{
+.other-games {
     padding-top: 50px;
     background-color: red;
     color: white;
 }
 
-.other-games h2{
+.other-games h2 {
     text-align: center;
 }
 
-.container-games{
+.container-games {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 50px;
-    flex: 1;
     padding: 50px 300px;
 }
 
-.container-games article{
+.container-games article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-footer{
+
+footer {
     background-color: black;
     text-align: center;
     padding: 50px;
 }
 
-footer a{
+footer a {
     color: white;
     padding: 0px 50px;
 }
